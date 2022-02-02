@@ -1,0 +1,118 @@
+body{
+
+    /* font-family: 'Dongle', sans-serif; */
+    /* font-family (stack): Open Sans;*/
+    font-size: 15px;
+   
+
+}
+    
+ .banner-container{
+    /* background-color: #DE015A; */
+     
+    background-color:#474D5D;
+    
+
+ }
+
+ .banner-column{
+     /* background-color:#523A3A; */
+     /* background-color:#FF5975; */
+     background-color: #a70848af;
+
+     
+ }
+ 
+ .navbar-container{
+    top: 0;
+    text-align: center;
+    position: sticky;
+    z-index: 2;
+ 
+ }
+
+ .about-container{
+    background-color:rgb(16, 105, 121);
+    font-size: 25px;
+ }
+
+
+ .edu-container{
+     background-color:#07064dbe;
+     padding: 30px;
+ }
+
+ .redtype-color{
+     /* background-color: mediumslateblue; */
+     color: white;
+ }
+
+ .circle-edu{
+     background-color: rgb(58, 10, 97);
+     width: 135px;
+     height: 135px;
+     border-radius: 60%;
+     /* text-align: center; */
+
+ }
+
+ /* Project */
+
+ .project-container{
+     background-color: tomato;
+     padding: 30px;
+    
+    
+ }
+
+
+ /* Portfolio */
+ .protfolio-container{
+     background-color: blueviolet;
+     padding: 30px;
+ }
+
+
+ /* form */
+ .form-container{
+     background-color:#060b1a;
+ }
+
+ .contact-box{
+     font-size: 75px;
+ }
+ .inner-form{
+     background-color: #585F73;
+ }
+
+ .bg-button{
+     background-color:rgb(207, 11, 224);
+ }
+ .bg-button:hover{
+    color: red!important;
+ }
+
+ /* footer */
+
+ .footer{
+     background: #6d0837;
+     
+ }
+ 
+.circle{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 80%;
+    display: inline-block;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(12, 35, 243);
+}
+
+.circle:hover{
+    
+    background-color: rgba(43, 18, 18, 0.637);
+     
+}
