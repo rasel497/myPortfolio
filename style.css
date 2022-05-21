@@ -3,15 +3,12 @@ body{
     /* font-family: 'Dongle', sans-serif; */
     /* font-family (stack): Open Sans;*/
     font-size: 15px;
-   
 
 }
     
  .banner-container{
     /* background-color: #DE015A; */
-     
     background-color:#474D5D;
-    
 
  }
 
@@ -20,7 +17,6 @@ body{
      /* background-color:#FF5975; */
      background-color: #a70848af;
 
-     
  }
  
  .navbar-container{
@@ -31,15 +27,34 @@ body{
  
  }
 
+
+ /*-------------About -----------------*/
+
  .about-container{
     background-color:rgb(16, 105, 121);
     font-size: 25px;
+    padding: 30px;
  }
 
+ .btn{
+     background:#f5093c;
+     border: whitesmoke;
+     border-radius: 50px;
+     color: #FFF;
+    
+ }
+
+ .btn:hover{
+     background: #060b1a;
+
+ }
+
+ 
+ /*-------------Education -----------------*/
 
  .edu-container{
-     background-color:#07064dbe;
-     padding: 30px;
+     background-color:#032342;
+     padding: 35px;
  }
 
  .redtype-color{
@@ -56,24 +71,37 @@ body{
 
  }
 
- /* Project */
+ /*-------------Project -----------------*/
 
  .project-container{
-     background-color: tomato;
-     padding: 30px;
-    
-    
+     background-color:#f5093c ;
+     padding: 30px;   
  }
 
+ .col-md-3 h1{
+     color: aliceblue;
+     font-size: 20px;
+ }
+ .col-md-3 p{
+     color: #FFF;
+     font-size: 12px;
+ }
 
- /* Portfolio */
+ /* -------------Portfolio-------------- */
+
  .protfolio-container{
-     background-color: blueviolet;
+     background-color:#273746;
      padding: 30px;
  }
 
+  /*-------------Certificate------------ */
 
- /* form */
+  .certificate-container{
+    background-color:#16A085;
+    padding: 40px;
+}
+
+ /* ---------------- contract form------------------ */
  .form-container{
      background-color:#060b1a;
  }
@@ -86,13 +114,13 @@ body{
  }
 
  .bg-button{
-     background-color:rgb(207, 11, 224);
+     background-color:#f5093c;
  }
  .bg-button:hover{
-    color: red!important;
+    color: rgb(3, 27, 41)!important;
  }
 
- /* footer */
+ /* ----------------------footer------------------ */
 
  .footer{
      background: #6d0837;
@@ -105,14 +133,15 @@ body{
     height: 45px;
     border-radius: 80%;
     display: inline-block;
-    background-color: white;
+    background-color: #FFF;
     font-size: 30px;
     text-align: center;
-    color:rgb(12, 35, 243);
+    color:#2BB3DD;
 }
 
 .circle:hover{
     
-    background-color: rgba(43, 18, 18, 0.637);
+    background-color:#474D5D;
      
 }
+ 
