@@ -80,43 +80,39 @@
 
 
     <!------------------------ About  ----------------------->
-
-
     <div class="about-container" id="About">
         <div class="container">
             <div class="row align-items-center py-4">
                 <div class="col-md-9 py-5 text-white">
                     <h1 class="pb-2">ABOUT ME</h1>
-                    <p>A, Full-Stack Software Engineer!</p>
+                    <p>A, Jr. Software Engineer!</p>
 
-                    <p style=" font-size: 20px; text-align: justify;">I’m Rashel Hossain, a Graduated B.Sc.
+                    <p style="font-size: 20px; text-align: justify;">I’m Rashel Hossain, a Graduated B.Sc.
                         Engineer. I’ve graduated with a degree from the department of Computer Science and
-                        Engineering. I’m proficient in a Python programming language and Django framework with Computer
-                        Technical Networking knowledge achiever.</p>
-                    <p style=" font-size: 20px; text-align: justify;">I’m a highly competent IT professional with a
-                        proven track record in designing website, networking and managing databases. I have strong
-                        technical skills as well as excellent interpersonal skills, enabling me to interact with a wide
-                        range of clients. I am eager to be challenged in order to grow and further improve my IT skills.
-                        My greatest passion is in life is using my technical know-how to benefit other people and
-                        organizations.</p>
+                        Engineering from Dhaka International University.
+                    </p>
+                    <p style="font-size: 20px; text-align: justify;">
+                        I’m a software developer who is passionate about making professional websites. I have a passion
+                        for learning and sharing my knowledge with others as publicly as possible. I love to solve
+                        real-world problems. Most of the time I work with MERN Stack development in JavaScript, React.js
+                        / Node.js / Express.js, MongoDB and Firebase authentication system, and JSON web token for
+                        authorization. <br>
+                        <strong>Skills:</strong> JavaScript, React.js / Node.js / Express.js, MongoDB and Firebase /
+                        JSON Web Token and Design Patterns / HTML5 / CSS3 / Bootstrap / Tailwind CSS
+                    </p>
 
-                    <!-- <p style="font-size: 20px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Error ad asperiores illo perspiciatis aut harum assumenda, hic consequuntur quasi et alias
-                        doloribus reiciendis repellendus aspernatur rem facilis. In a culpa officiis distinctio quod
-                        optio eaque libero, similique, quos harum eos. Quasi dicta id nihil non sint quas soluta earum
-                        aperiam.</p> -->
-
+                    <div class="btn">
+                        <a href="./resume/Rashel Hossain-Resume2.pdf"
+                            style="text-decoration: none; color: aliceblue;">Download
+                            Resume</a>
+                    </div>
                 </div>
 
-                <div class="col-md-3 mb-4">
+                <div class="col-md-3 mb-2">
                     <img src="img/MyPhoto.jpeg" alt="It's Me!!!" class="img-fluid rounded-circle border border-light">
-
                 </div>
             </div>
-            <div class="btn">
-                <a href="./resume/Rashel Hossain-Resume2.pdf" style="text-decoration: none; color: aliceblue;">Download
-                    Resume</a>
-            </div>
+
         </div>
 
     </div>
@@ -374,14 +370,16 @@
 
     <div class="form-container" id="Contact">
         <div class="container">
-            <div class="row py-5">
+
+
+
+            <!-- <div class="row py-5">
                 <div class="col py-4 text-white text-center m-auto">
                     <h2 class="font-weight-bolder">CONTACT ME FOR YOUR SERVICE!</h2>
                     <p>I’m Rashel Hossain @ Software Engineer.</p>
                 </div>
             </div>
-
-            <!---->
+ 
             <div class="row py-4">
 
                 <div class="col-sm border border-light text-white text-center mr-1">
@@ -404,38 +402,47 @@
                     <h4>Failed Attamp!!</h4>
                 </div>
 
-            </div>
+            </div> -->
 
 
-
+            <!-- 
             <div class="row py-5">
                 <div class="col text-white text-center m-auto">
                     <h2 class="font-weight-bolder">This is Get in Touch!</h2>
                     <p>Contact me as a full-stack webdeveloper @ Python & Django Server.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row pb-4">
-                <div class="col text-white text-center">
-                    <h4>Shot Me Message!!</h4>
-                </div>
-            </div>
 
-            <form action="backend.php">
+
+            <!-- contact form -->
+            <!-- <form onsubmit="sendEmail(); reset();">
+                <h3>Get In Touch</h3>
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="email" id="email" placeholder="E-mail id" required>
+                <input type="phone" id="phone" placeholder="Phone no. " required>
+                <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <button id="btn">Send</button>
+            </form> -->
+
+            <form onsubmit="sendEmail(); reset();">
+                <h4 class="col text-white text-center font-weight-bolder Uppercase">GET IN TOUCH</h4>
                 <div class="form-row pb-4">
-                    <div class="col w-50 h-50 m-auto">
-                        <input type="text" class="form-control inner-form mb-2" placeholder="User Name">
+                    <div class="col w-50 h-50 mb-2 m-auto">
+                        <input type="text" class="form-control inner-form mb-2" placeholder="Your Name">
                     </div>
-                    <div class="col w-50 h-50 m-auto">
-                        <input type="text" class="form-control inner-form" placeholder="Password">
+                    <div class="col w-50 h-50 mb-2 m-auto">
+                        <input type="email" id="email" class="form-control inner-form" placeholder="Your Email">
+                    </div>
+                    <div class="col w-50 h-50 mb-2 m-auto">
+                        <input type="text" class="form-control inner-form" placeholder="Your Phone Number">
                     </div>
                 </div>
 
                 <div class="row pb-3">
                     <div class="col">
                         <textarea name="" class="form-control inner-form  w-50 h-70 m-auto" id="" cols="30" rows="5"
-                            placeholder="Your text"></textarea>
-
+                            placeholder="Your Message"></textarea>
                     </div>
                 </div>
 
@@ -451,6 +458,27 @@
     </div>
 
 
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+        function sendEmail() {
+
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "rasel.csediu44@gmail.com",
+                Password: "D2CDBA922E60D3D4050C76F943570FFC407B",
+                To: 'rasel.csediu44@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "This is the subject",
+                Body: "name: "
+            }).then(
+                message => alert(message)
+            );
+        }
+
+    </script>
     <!------------------------------footer-------------------------------->
 
 
@@ -497,6 +525,9 @@
             </div>
         </div>
     </section>
+
+
+
 
 
 
